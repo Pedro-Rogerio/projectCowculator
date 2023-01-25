@@ -1,0 +1,114 @@
+:root{
+    background-color: #00006e;
+    background-image: linear-gradient(white, #00006E);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.calc{
+    background-image: url("cowculator.png");
+    display: grid;
+    width: 720px;
+    height: 950px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 100px
+    
+}
+
+.visor{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #00006e;
+    border-radius: 10px;
+    border: solid 3px #00006E;
+    display: grid;
+    width: 600px;
+    height: 100px;
+    box-shadow: 2px 2px 0 1px #01015c;
+}
+
+#visor2{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 700;
+    font-size: x-large;
+    color: #00006E;
+    display: grid;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+#visorOperacao{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 700;
+    font-size: x-large;
+    color: #00006E;
+    display: grid;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+#visor1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 700;
+    font-size: x-large;
+    color: #00006E;
+    display: grid;
+    justify-content: right;
+    padding-right: 10px;
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #00006e;
+    border-radius: 10px;
+    border: solid 1px #00006E;
+    height: 50px;
+    margin-top: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 700;
+    font-size: large;
+    color: #00006E;
+    box-shadow: 2px 2px 0 1px #01015c;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn:active{
+    box-shadow: 0 0 0 0 #01015c, inset 3px 3px 3px #01015c;
+    transform: translate(3px, 3px);
+}
+
+.botoes1{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    justify-content: space-between;
+}
+
+.botoes2{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    justify-content: space-between;
+}
+
+.botoes3{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    justify-content: space-between;
+}
+
+.botoes4{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    justify-content: space-between;
+}
+.botoes5{
+    display: grid;
+    grid-template-columns: 295px 140px 140px;
+    justify-content: space-around;
+    gap: 11px;
+
+}

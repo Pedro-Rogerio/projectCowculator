@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="interfaceController.js"></script>
+    <title>Cowculator</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="visor">
+            <div id="visor1"> </div>
+            <div id="visorOperacao"> </div>
+            <div id="visor2">0</div>
+        </div>
+        
+        <div class="botoes1">
+            <button class="btn" onclick="vaca()" onmousedown="mu.play()">COW</button>
+            <button class="btn" onclick="resetar()"> RESET</button>
+            <button class="btn" onclick="apagar()">&larr;</button>
+            <button class="btn" onclick="divisao()">/</button>
+        </div>
+       <div class="botoes2">
+        <button class="btn" onclick="add7()">7</button>
+        <button class="btn" onclick="add8()">8</button>
+        <button class="btn" onclick="add9()">9</button>
+        <button class="btn" onclick="multiplicacao()">X</button>
+       </div>
+        <div class="botoes3">
+            <button class="btn" onclick="add4()">4</button>
+            <button class="btn" onclick="add5()">5</button>
+            <button class="btn" onclick="add6()">6</button>
+            <button class="btn" onclick="subtracao()">-</button>
+        </div>
+        <div class="botoes4">
+            <button class="btn" onclick="add1()">1</button>
+            <button class="btn" onclick="add2()">2</button>
+            <button class="btn" onclick="add3()">3</button>
+            <button class="btn" onclick="soma()">+</button>
+        </div>
+       <div class="botoes5">
+        <button class="btn" onclick="add0()">0</button>
+        <button class="btn" onclick="addponto()">.</button>
+        <button class="btn" onclick="igual()" onmousedown="mu.play()">=</button>
+       </div>
+        
+
+    </div>
+
+</body>
+</html>
